@@ -1108,9 +1108,12 @@ body {
 }
 
 /* RESPONSIVE DESIGN FOR MOBILE START */
-@media screen and (max-width: 480px) and (min-width: 320px) {
+@media screen and (max-width: 480px) {
 
-
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
   /* HEADER SECTION START */
 
   .header {
