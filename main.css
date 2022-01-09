@@ -54,7 +54,7 @@ html, body {
       to bottom,
       var(--primary-color-two), var(--secondary-color)
     ),
-    url(/images/header.jpg);
+    url(images/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
