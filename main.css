@@ -1230,7 +1230,7 @@ html, body {
   /* SERVICES SECTION START */
 
   .services-section {
-    height: 160vh;
+    height: 150vh;
     padding: 1rem 0 1rem 0;
   }
 
@@ -1265,7 +1265,7 @@ html, body {
 
   .more p {
     text-align: center;
-    font-size: .8rem;
+    font-size: .7rem;
     padding: 10px 10px 0 10px;
     margin-top: 25px;
   }
@@ -1322,7 +1322,7 @@ html, body {
   /* GALLERY SECTION START */
 
 .gallery-section {
-  height: 300vh;
+  height: 280vh;
 }
 
 .gallery-section h1 {
@@ -1354,6 +1354,10 @@ html, body {
   top: 30px;
   left: 0;
 }
+  
+.img-div .img:hover {
+ z-index: 20;
+}
 
 .img-div .img:nth-child(2) {
   top: 100px;
@@ -1378,7 +1382,7 @@ html, body {
 /* EVENTS SECTION START */
 
 .events-container {
-  height: 220vh;
+  height: 200vh;
 }
 
 .events-container h1 {
@@ -1537,15 +1541,15 @@ html, body {
   margin: 1rem auto;
   width: 80%;
   max-width: 100%;
-  height: 400px;
+  height: 430px;
 }
 
 .package:nth-child(2) {
-  height: 470px;
+  height: 500px;
 }
 
 .package:nth-child(3) {
-  height: 520px;
+  height: 550px;
 }
 
 .package h2 {
@@ -1681,7 +1685,7 @@ justify-content: space-between;
 
 .form-container textarea {
   width: 100%;
-  height: 150px;
+  height: 250px;
   resize: none;
   padding: 30px;
 }
@@ -1796,8 +1800,7 @@ justify-content: space-between;
   color: var(--text-color-darkgrey);
 }
 
-.social-media {
-  border-top: 5px solid rgba(91, 79, 168, 0.089);
+.social-media { 
   width: 100%;
   margin: 0 auto;
   padding: 0;
